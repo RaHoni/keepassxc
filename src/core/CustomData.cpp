@@ -25,6 +25,7 @@ const QString CustomData::Created = QStringLiteral("_CREATED");
 const QString CustomData::BrowserKeyPrefix = QStringLiteral("KPXC_BROWSER_");
 const QString CustomData::BrowserLegacyKeyPrefix = QStringLiteral("Public Key: ");
 const QString CustomData::ExcludeFromReportsLegacy = QStringLiteral("KnownBad");
+const QString CustomData::SyncCommandPrefix = QStringLiteral("KPXC_SYNC_");
 
 // Fallback item for return by reference
 static const CustomData::CustomDataItem NULL_ITEM{};
